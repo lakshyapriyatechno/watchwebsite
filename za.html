@@ -1,0 +1,81 @@
+<html>
+<head>
+  <title>watch style</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Our watch collections</h1>
+  </header>
+<main>
+     <div class="product">
+      <img src="R.jpg" alt="Product 1">
+      <h3>Blue nardin watch</h3>
+      <p>RS.4999</p>
+      <button onclick="addToCart('Blue nardin watch', 4999)">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="nibosi.jpg" alt="Product 2">
+      <h3>Blue Nibosi watch</h3>
+      <p>RS.3600</p>
+      <button onclick="addToCart('Nibosi', 3600)">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="lange.jpg" alt="Product 3">
+      <h3>Lange & sohna</h3>
+      <p>RS.12799</p>
+      <button onclick="addToCart('Lange&sohna', 12799)">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="luchopard.jpg" alt="Product 4">
+      <h3>Luchopard</h3>
+      <p>RS.10499</p>
+      <button onclick="addToCart('Luchopard', 10499)">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="bo.webp" alt="Product 5">
+      <h3>Marron classic BoBerry</h3>
+      <p>RS.2799</p>
+      <button onclick="addToCart('Marron classic Boberry', 2799)">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="goldwatch.jpg" alt="Product 6">
+      <h3>Solid Gold Apple Watch</h3>
+      <p>RS.49999</p>
+      <button onclick="addToCart('Solid Gold Apple Watch', 49999)">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="Planet-ocean.jpg" alt="Product 7">
+      <h3>Planet Ocean Omega Watch</h3>
+      <p>RS.6899</p>
+      <button onclick="addToCart('Planet Ocean Omega Watch', 6899)">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="nardin.jpg" alt="Product 8">
+      <h3>Ulysses Nardin Watch</h3>
+      <p>RS.2899</p>
+      <button onclick="addToCart('Ulysses Nardin Watch', 2899)">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="lige.jpg" alt="Product 9">
+      <h3>Lige Stainless Steel Watch </h3>
+      <p>RS.4000</p>
+      <button onclick="addToCart('Lige stainless steel Watch', 4000)">Add to Cart</button>
+    </div>
+    <div class="product">
+      <img src="fossil.jpg" alt="Product 10">
+      <h3>Fossil leather Watch</h3>
+      <p>RS.12799</p>
+      <button onclick="addToCart('Fossil Leather Watch', 12799)">Add to Cart</button>
+    </div>
+  </main>
+  <div id="cart">
+        <h2>Cart</h2>
+        <div id="cartItems"></div>
+        <div id="cartTotal">Total: RS.0</div>
+<aside>
+    <button onclick="checkout()">Checkout</button>
+  </aside>
+<script src="script.js"></script>
+</body>
+</html>
